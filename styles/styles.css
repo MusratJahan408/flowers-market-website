@@ -288,7 +288,7 @@ footer {
   padding: 50px 0;
 }
 .footer-logo p {
-  width: 360px;
+  max-width: 360px;
   margin-top: 16px;
 }
 .footer-link-list li {
@@ -304,10 +304,13 @@ footer {
   align-items: center;
   gap: 30px;
 }
+body {
+  overflow-x: hidden;
+}
 
 /* responsive layout  */
 /* mobile device  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   header,
   .plants-cards-section,
   .flowers-lovers-section,
@@ -320,6 +323,9 @@ footer {
   }
   nav img {
     width: 65px;
+  }
+  .cart-icon img {
+    width: 24px;
   }
   .banner-container {
     flex-direction: column-reverse;

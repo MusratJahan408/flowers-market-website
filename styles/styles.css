@@ -5,6 +5,7 @@
 }
 body {
   background-color: #f5f8ff;
+  overflow-x: hidden;
 }
 
 .noto-serif-fonts {
@@ -303,9 +304,6 @@ footer {
   display: flex;
   align-items: center;
   gap: 30px;
-}
-body {
-  overflow-x: hidden;
 }
 
 /* responsive layout  */
